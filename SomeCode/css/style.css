@@ -1,0 +1,28 @@
+body {
+    background: steelblue;
+    background-image: url("/pictures/bg_2.jpg") no-repeat right top;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: arial;
+}
+
+p {
+    color: whitesmoke;
+    font-family: helvetica;
+}
+
+table, th, td{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    color: whitesmoke;
+    font-family: helvetica;
+}
+
+ul, li, ol, dl, dt, dd {
+    font-family: helvetica;
+    color: whitesmoke;
+}
+
