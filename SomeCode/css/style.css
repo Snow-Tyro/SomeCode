@@ -1,19 +1,23 @@
+/*Formating body style*/
 body {
     background: steelblue;
     background-image: url("/pictures/bg_2.jpg") no-repeat right top;
 }
 
+/*Formating header*/
 h1 {
     text-align: center;
     color: whitesmoke;
     font-family: arial;
 }
 
+/*Formating paragraph*/
 p {
     color: whitesmoke;
     font-family: helvetica;
 }
 
+/*Formating tables*/
 table, th, td{
     border: 1px solid whitesmoke;
     border-collapse: collapse;
@@ -21,8 +25,36 @@ table, th, td{
     font-family: helvetica;
 }
 
+/*Formating lists*/
 ul, li, ol, dl, dt, dd {
     font-family: helvetica;
-    color: whitesmoke;
+    color: whitesmoke;  
 }
 
+/*Creating class*/
+.cities{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    fong-family: helvetica;
+}
+
+span.note{
+    color: red;
+    font-size: 120%;
+    font-family: helvetica;
+}
+
+.city{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+#myHeader{
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
